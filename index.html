@@ -11,12 +11,18 @@
     <a-scene embedded arjs>
       
       <a-assets>
-				<img id="brebis" src="https://github.com/mariegosme/mariegosme.github.io/blob/master/images/brebis.jpg" crossorigin="anonymous">
+				<img id="brebis" src="images/brebis.jpg" crossorigin="anonymous">
     </a-assets>
       
        <!-- essai d image avec sheep -->
-	  <a-marker	type='pattern' url='https://github.com/mariegosme/mariegosme.github.io/blob/master/patterns/Sheep.patt'>
+	  <a-marker	type='pattern' url='patterns/Sheep.patt'>
 	    <a-image rotation="0 0 0" src="#brebis"></a-image>
+	  </a-marker>
+	  <a-marker	type='pattern' url='patterns/Sheep2.patt'>
+	    <a-image rotation="0 10 0" src="#brebis"></a-image>
+	  </a-marker>
+	  <a-marker	type='pattern' url='patterns/Sheep3.patt'>
+	    <a-image rotation="0 20 0" src="#brebis"></a-image>
 	  </a-marker>
       
       <!-- conifere avec hiro -->
