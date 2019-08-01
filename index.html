@@ -2,7 +2,12 @@
 <html>
 <script src="https://aframe.io/releases/0.9.1/aframe.min.js"></script>
 <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.7.2/aframe/build/aframe-ar.js"></script>
+
   <body style='margin : 0px; overflow: hidden;'>
+    <div style='position: fixed; top: 10px; width:100%; text-align: center; z-index: 1;'>
+		<a> first demo MF/AF conception </a>
+	</div>
+	
     <a-scene embedded arjs>
       
       <a-assets>
@@ -13,6 +18,13 @@
 	  <a-marker	type='pattern' url='https://github.com/mariegosme/mariegosme.github.io/blob/master/patterns/Sheep.patt'>
 	    <a-image rotation="0 0 0" src="#brebis"></a-image>
 	  </a-marker>
+      
+      <!-- conifere avec hiro -->
+      <a-marker preset="hiro">
+        <a-cone color="brown" height="4" radius-bottom="0.2" radius-top="0" position='0 2 0' ></a-cone>
+        <a-cone color="green" height="4" radius-bottom="0.5" radius-top="0" position='0 3 0' ></a-cone>
+      </a-marker>
+      
       
       <a-entity camera></a-entity>
     </a-scene>
