@@ -21,9 +21,33 @@
       
       <!-- conifere avec hiro -->
       <a-marker preset="hiro">
-        <a-cone color="brown" height="4" radius-bottom="0.2" radius-top="0" position='0 2 0' ></a-cone>
-        <a-cone color="green" height="4" radius-bottom="0.5" radius-top="0" position='0 3 0' ></a-cone>
+        <a-cone color="brown" height="3" radius-bottom="0.2" radius-top="0" position='0 1.5 0' ></a-cone>
+        <a-cone color="green" height="2" radius-bottom="0.5" radius-top="0" position='0 2 0' ></a-cone>
       </a-marker>
+      
+      <!-- choupachoups avec juglans -->
+      <a-marker	type='pattern'	url='patterns/Juglans.patt'>
+        	<a-cone color="brown" height="4" radius-bottom="0.3" radius-top="0" position='0 2 0' ></a-cone>
+      		<a-sphere color="green" radius="1.2" position='0 4 0' material='opacity: 0.5'></a-sphere>
+		</a-marker>
+		
+		<a-marker	type='pattern'	url='patterns/Juglans1.patt'>
+        	<a-cone color="brown" height="4" radius-bottom="0.2" radius-top="0" position='0 2 0' ></a-cone>
+      		<a-sphere color="green" radius="0.5" position='0 4 0' material='opacity: 0.6'></a-sphere>
+		</a-marker>
+		
+		<a-marker	type='pattern'	url='patterns/Juglans2.patt'>
+        	<a-cone color="brown" height="4" radius-bottom="0.2" radius-top="0" position='0 2 0' ></a-cone>
+      		<a-sphere color="green" radius="1" position='0 4 0' material='opacity: 0.6'></a-sphere>
+		</a-marker>
+		
+		<!-- sucette avec populus -->
+		<a-marker	type='pattern'	url='patterns/Populus.patt'>
+        	<a-cone color="brown" height="4" radius-bottom="0.2" radius-top="0" position='0 2 0' ></a-cone>
+        	<a-cylinder color="green" height="3" radius="0.6"  position='0 3 0' material='opacity: 0.9'></a-cylinder>
+      		<a-sphere color="green" radius="0.6" position='0 1.5 0' phiStart="180" phiLength="180" material='opacity: 0.9'></a-sphere>
+      		<a-sphere color="green" radius="0.6" position='0 4.5' phiStart="360" phiLength="180" material='opacity: 0.9'></a-sphere>
+		</a-marker>
       
       
       <a-entity camera></a-entity>
